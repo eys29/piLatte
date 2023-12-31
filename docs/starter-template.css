@@ -1,5 +1,11 @@
+:root {
+  --matcha: rgb(156, 199, 129);
+  --dark: rgb(62, 80, 50);
+}
 body {
     padding-top: 50px;
+    width: 80%;
+    margin: auto;
 }
 
 .starter-template {
@@ -24,4 +30,28 @@ div {
 
 img, iframe {
   margin: auto;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus{
+  background-color: var(--matcha);
+  border: none;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover{
+  color: var(--dark);
+}
+
+h1, h2, h3, h4 {
+  color: var(--dark);
+}
+
+a{
+  color: var(--matcha);
+}
+a:hover {
+  color: var(--dark);
 }
