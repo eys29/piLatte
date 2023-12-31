@@ -32,7 +32,7 @@ img, iframe {
   margin: auto;
 }
 
-.navbar-inverse, .navbar-collapse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus{
+.navbar-inverse, .navbar-collapse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
   background-color: var(--matcha);
   border: none;
 }
